@@ -9,7 +9,7 @@
 var debug = require('debug')('serialport');
 var path = require('path');
 var PACKAGE_JSON = path.join(__dirname, 'package.json');
-var SerialPortBinding = require('./serialport');
+var SerialPortBinding = require('./serialport.node');
 
 var parsers = require('./parsers');
 var EventEmitter = require('events').EventEmitter;
